@@ -20,11 +20,13 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* Removed the "header h1" in front of this seo class to reduce redundancy in the code.*/
+.seo {
     color: #d9dcd6;
 }
 
-header div {
+/* Changed this from "header div" to an id of Menu to help reduce code and make it more specific and readable. */
+#menu{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,9 +34,9 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+/* header div ul {
     list-style-type: none;
-}
+} */
 
 header div ul li {
     display: inline-block;
