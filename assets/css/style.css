@@ -15,7 +15,8 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+/* Got rid of the "header" before this h1 because there's only one h1 on this page so it was unnecessary. */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -34,11 +35,14 @@ header h1 {
     font-size: 20px;
 }
 
-/* header div ul {
+/* Removed this block of code because it was unnecessary and redundant. 
+header div ul {
     list-style-type: none;
 } */
 
-header div ul li {
+/* removed "header div ul" because it was redundant and unnecessary. There is no other li tags within the HTML.  */
+li {
+    list-style-type:none; 
     display: inline-block;
     margin-left: 25px;
 }
