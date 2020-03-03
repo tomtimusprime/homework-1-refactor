@@ -75,7 +75,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* Changed this from the "content" class to main to increase readability/semantics. */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
