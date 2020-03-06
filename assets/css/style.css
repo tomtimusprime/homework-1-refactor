@@ -57,6 +57,7 @@ p {
     font-size: 16px;
 }
 
+/* This class formats the main background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -196,13 +197,14 @@ main {
     font-size: 36px;
 }
 
-.footer {
+/* Changed this from class footer to a footer tag within the html for semantic purposes. */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
