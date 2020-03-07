@@ -27,7 +27,8 @@ h1 {
     color: #d9dcd6;
 }
 
-/* Changed this from "header div" to an id of Menu to help reduce code and make it more specific and readable. */
+/* Changed this from "header div" to a nav element to help reduce code and the need for a class
+and make it more accessible and increase SEO by using a semantic element. */
 nav{
     padding-top: 15px;
     margin-right: 20px;
