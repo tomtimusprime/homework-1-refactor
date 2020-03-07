@@ -41,7 +41,7 @@ header div ul {
     list-style-type: none;
 } */
 
-/* removed "header div ul" because it was redundant and unnecessary. There is no other li tags within the HTML.  */
+/* Removed "header div ul" because it was redundant and unnecessary. There is no other li tags within the HTML.  */
 li {
     list-style-type:none; 
     display: inline-block;
@@ -84,7 +84,8 @@ main {
     margin-left: 20px;
 }
 
-.benefits {
+/* Changed this from the "benefits" class to an aside element to increase readability/semantics. */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -95,11 +96,14 @@ main {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Changed from "benefit-lead" to just benefit because the code was the same for all benefit sections. This helped to reduce
+code tremendously and follow the DRY coding best practices. */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Removed the following chunks of code because they were redundant and unnecessary.
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -108,13 +112,17 @@ main {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+
+/* Removed the benefit prefix to the h3 tags because there are only three h3 tags in the whole document and they all are in the same
+section. */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Removed the following chunks of code because they were redundant and unnecessary.
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -123,14 +131,16 @@ main {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (benefit)
+ and they all had the same code.  
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -141,9 +151,9 @@ main {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.search-engine-optimization {
+.main-content{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,6 +162,8 @@ main {
     color: #ffffff;
 }
 
+/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
+ and they all had the same code.
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -168,25 +180,29 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+.main-content img {
     max-height: 200px;
 }
 
+/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
+ and they all had the same code.
 .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
+ and they all had the same code. 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -195,7 +211,7 @@ main {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 /* Changed this from class footer to a footer tag within the html for semantic purposes. */
 footer {
