@@ -35,8 +35,9 @@ As I completed this assignment I kept the following in mind:
 
 -1.) Incorporate comments to both help with organizing the main sections, but to make it more readable and help anyone else looking at the code have a better understanding of what was changed and why.
 -2.) Use semantic tags where possible in order to help with both SEO and readability.
--3.) Reduce redundant code in order to comply with the DRY standard of writing code and minimize inefficiency when rendering said code. 
--4.) Add, Commit and Push my code changes early and often in case of needing to roll back to previous versions and to help with understanding my thought processes as I adjusted the code.
--5.) I used https://w3schools.com, https://developer.mozilla.org/, and https://stackoverflow.com for reference when I needed a better understanding of a concept or particular property. 
+-3.) Added alt text to images to increase accessibility on the site.
+-4.) Reduce redundant code in order to comply with the DRY standard of writing code and minimize inefficiency when rendering said code. 
+-5.) Add, Commit and Push my code changes early and often in case of needing to roll back to previous versions and to help with understanding my thought processes as I adjusted the code.
+-6.) I used https://w3schools.com, https://developer.mozilla.org/, and https://stackoverflow.com for reference when I needed a better understanding of a concept or particular property. 
 
 
