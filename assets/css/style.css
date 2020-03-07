@@ -9,6 +9,11 @@ body {
     background-color: #d9dcd6;
 }
 
+/*  ===========
+    Header Area
+    =========== */
+
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,9 +59,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/*  ================
+    Background Image
+    ================ */
 
 /* This class formats the main background image */
 .hero {
@@ -68,6 +73,19 @@ p {
     background-position: center;
 }
 
+/*  =================
+    Main Body Section
+    ================= */
+    
+/* Changed this from the "content" class to a main element to increase readability/semantics. */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+p {
+    font-size: 16px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,12 +96,69 @@ p {
     margin-left: 25px;
 }
 
-/* Changed this from the "content" class to a main element to increase readability/semantics. */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.main-content{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+
+/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
+ and they all had the same code.
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} */
+
+.main-content img {
+    max-height: 200px;
+}
+
+/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
+ and they all had the same code.
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+} */
+
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
+ and they all had the same code. 
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} */
+
+/*  =============
+    Aside Section
+    ============= */
 
 /* Changed this from the "benefits" class to an aside element to increase readability/semantics. */
 aside {
@@ -154,65 +229,9 @@ h3 {
     max-width: 150px;
 } */
 
-.main-content{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
- and they all had the same code.
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-.main-content img {
-    max-height: 200px;
-}
-
-/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
- and they all had the same code.
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-.main-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Removed the following chunks of code because they were redundant and unnecessary. Housed everything under one class (main-content)
- and they all had the same code. 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
+/*  ==============
+    Footer Section
+    ============== */
 
 /* Changed this from class footer to a footer tag within the html for semantic purposes. */
 footer {
