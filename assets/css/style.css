@@ -231,7 +231,7 @@ h3 {
     Footer Section
     ============== */
 
-/* Changed this from class footer to a footer tag within the html for semantic purposes. */
+/* Changed this from class footer to a footer tag within the html for semantic, accessibility and SEO purposes. */
 footer {
     padding: 30px;
     clear: both;
