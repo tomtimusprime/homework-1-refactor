@@ -20,10 +20,12 @@ header {
     color: #ffffff;
 }
 
-/* Got rid of the "header" before this h1 because there's only one h1 on this page so it was unnecessary. */
+/* Got rid of the "header" before this h1 because there's only one h1 on this page so it was unnecessary. Obviously if there was
+more than one h1, we'd have to specify which one we were modifying via either an id, class or parent element. */
 h1 {
     display: inline-block;
     font-size: 48px;
+    font-weight: 900;
 }
 
 /* Removed the "header h1" in front of this seo class to reduce redundancy in the code.*/
