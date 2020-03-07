@@ -9,9 +9,9 @@ body {
     background-color: #d9dcd6;
 }
 
-/*  ===========
-    Header Area
-    =========== */
+/*  ==============
+    Header Section
+    ============== */
 
 header {
     padding: 20px;
@@ -31,7 +31,7 @@ h1 {
     color: #d9dcd6;
 }
 
-/* Changed this from "header div" to a nav element to help reduce code and the need for a class
+/* Changed this from "header div" to a nav element to help reduce code and the need for a class,
 and make it more accessible and increase SEO by using a semantic element. */
 nav{
     padding-top: 15px;
@@ -179,7 +179,7 @@ code tremendously and follow the DRY coding best practices. */
 }
 
 /* Removed the benefit prefix to the h3 tags because there are only three h3 tags in the whole document and they all are in the same
-section. */
+aside section. */
 h3 {
     margin-bottom: 10px;
     text-align: center;
