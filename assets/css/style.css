@@ -28,7 +28,7 @@ h1 {
 }
 
 /* Changed this from "header div" to an id of Menu to help reduce code and make it more specific and readable. */
-#menu{
+nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
